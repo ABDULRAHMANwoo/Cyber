@@ -1,0 +1,41 @@
+09_Transport_Layer_TCP_Analysis
+Aim: Analyze TCP headers using Wireshark.
+Procedure:
+Open Wireshark and select a Wi-Fi interface.
+
+Start packet capture.
+
+Filter packets by source IP address (IPv4 → Source Address).
+
+Analyze TCP protocol headers.
+Result: Successfully analyzed TCP headers.
+________________________________________________________________________________________
+________________________________________________________________________________________
+
+10_Transport_Layer_DNS_Analysis
+Aim: Analyze DNS headers using Wireshark.
+Procedure:
+
+Open Wireshark and select a Wi-Fi interface.
+
+Start packet capture.
+
+Filter packets by source IP address (IPv4 → Source Address).
+
+Analyze DNS protocol headers.
+Result: Successfully analyzed DNS headers.
+________________________________________________________________________________________
+________________________________________________________________________________________
+
+11_Transport_Layer_HTTP_Analysis
+Aim: Analyze HTTP headers using Wireshark.
+Procedure:
+
+Open Wireshark and select a Wi-Fi interface.
+
+Start packet capture.
+
+Filter packets by source IP address (IPv4 → Source Address).
+
+Analyze HTTP protocol headers.
+Result: Successfully analyzed HTTP headers.
