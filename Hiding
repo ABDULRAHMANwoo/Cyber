@@ -1,0 +1,48 @@
+02_Hiding_Text_in_Image
+Aim: Hide and extract a text file inside an image file.
+Procedure (Hiding):
+Place "A.txt" (text) and "B.jpg" (image) on the desktop.
+
+Open Command Prompt and navigate to the desktop.
+
+Run: copy /b B.jpg + A.txt C.jpg to create "C.jpg".
+Retrieval:
+
+Open "C.jpg" with Notepad; the hidden text appears at the end.
+Result: Successfully hid and extracted text within an image.
+________________________________________________________________________________________
+________________________________________________________________________________________
+
+03_Hiding_Text_in_Audio
+Aim: Hide and extract a text file inside an audio file.
+Procedure (Hiding):
+
+Place "A.txt" (text) and "sound.mp3" (audio) on the desktop.
+
+Open Command Prompt and navigate to the desktop.
+
+Run: copy /b A.txt + sound.mp3 newfile.mp3 to create "newfile.mp3".
+Retrieval:
+
+Open "newfile.mp3" with Notepad; the hidden text appears at the end.
+Result: Successfully hid and extracted text within an audio file.
+________________________________________________________________________________________
+________________________________________________________________________________________
+
+13_Hiding_ZIP_in_Image
+Aim: Hide a ZIP file within an image.
+Procedure:
+
+Place "cover.jpg" (image) and "secret.zip" (ZIP file) in the same folder.
+
+Merge them using:
+
+Copy
+copy /b cover.jpg + secret.zip hidden.jpg  
+Retrieval:
+
+Rename the output file to extract the ZIP:
+
+Copy
+ren hidden.jpg secret.zip  
+Result: Successfully hid and retrieved the ZIP file within an image.
