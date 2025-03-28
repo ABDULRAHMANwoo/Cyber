@@ -1,4 +1,3 @@
-1. Extract
 04_Extract_EXIF_Data
 Aim: Extract Exchangeable Image File Format (EXIF) data using ExifReader.
 Procedure:
@@ -8,6 +7,7 @@ Upload an image file (.jpg, .png, etc.).
 
 Analyze the displayed EXIF metadata (e.g., resolution, color components).
 Result: Successfully extracted and analyzed EXIF data.
+________________________________________________________________________________________
 
 05_Extract_Chrome_History
 Aim: Extract and analyze Chrome browsing history.
@@ -20,6 +20,7 @@ Wait for the scan to complete.
 
 Analyze the history data.
 Result: Successfully extracted Chrome history.
+________________________________________________________________________________________
 
 06_Extract_Chrome_Cache
 Aim: Extract and analyze Chrome cache.
@@ -32,6 +33,7 @@ Wait for the scan to complete.
 
 Analyze the cached data.
 Result: Successfully extracted Chrome cache.
+________________________________________________________________________________________
 
 07_Extract_Last_Activity
 Aim: Extract system last activity data.
@@ -44,6 +46,7 @@ Wait for the scan to complete.
 
 Analyze the activity logs.
 Result: Successfully extracted last activity data.
+________________________________________________________________________________________
 
 08_Extract_USB_Devices
 Aim: Extract connected USB device history.
@@ -56,6 +59,7 @@ Wait for the scan to complete.
 
 Analyze the USB device history.
 Result: Successfully extracted USB device data.
+________________________________________________________________________________________
 
 15_Extract_Recent_Login_Logout
 Aim: Extract recent login/logout events.
@@ -71,3 +75,4 @@ View recent logouts (EventID 4634):
 Copy
 wevtutil qe Security /q:"*[System[(EventID=4634)]]" /rd:true /c:10 /f:text  
 Result: Successfully extracted the last 10 login/logout events.
+________________________________________________________________________________________
