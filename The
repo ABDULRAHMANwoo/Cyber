@@ -1,0 +1,16 @@
+01_The_Count_of_Deleted_Files
+Aim: Identify the count of deleted files.
+Procedure:
+
+Download Recovermyfile tool from the provided URL.
+
+Install the tool using the downloaded .exe file.
+
+Select the target drive for recovery.
+
+Start the recovery process.
+
+Wait for the scan to complete.
+
+Analyze the count of deleted files from the scan results.
+Result: Successfully identified the count of deleted files.
