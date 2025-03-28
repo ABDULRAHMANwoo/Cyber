@@ -1,0 +1,15 @@
+_14_View_WiFi_Passwords
+Aim: Retrieve saved Wi-Fi passwords.
+Procedure:
+
+Open Command Prompt as Administrator.
+
+List saved Wi-Fi profiles:
+
+Copy
+netsh wlan show profiles  
+View password for a specific network:
+
+Copy
+netsh wlan show profile name="WiFi-Network-Name" key=clear  
+Result: Successfully extracted Wi-Fi passwords.
