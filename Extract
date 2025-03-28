@@ -1,0 +1,73 @@
+1. Extract
+04_Extract_EXIF_Data
+Aim: Extract Exchangeable Image File Format (EXIF) data using ExifReader.
+Procedure:
+Visit exifreader.com.
+
+Upload an image file (.jpg, .png, etc.).
+
+Analyze the displayed EXIF metadata (e.g., resolution, color components).
+Result: Successfully extracted and analyzed EXIF data.
+
+05_Extract_Chrome_History
+Aim: Extract and analyze Chrome browsing history.
+Procedure:
+Download and install "Chrome History View" from the provided URL.
+
+Run the tool and allow permissions.
+
+Wait for the scan to complete.
+
+Analyze the history data.
+Result: Successfully extracted Chrome history.
+
+06_Extract_Chrome_Cache
+Aim: Extract and analyze Chrome cache.
+Procedure:
+Download and install "Chrome Cache View" from the provided URL.
+
+Run the tool and allow permissions.
+
+Wait for the scan to complete.
+
+Analyze the cached data.
+Result: Successfully extracted Chrome cache.
+
+07_Extract_Last_Activity
+Aim: Extract system last activity data.
+Procedure:
+Download and install "LastActivityView" from the provided URL.
+
+Run the tool and allow permissions.
+
+Wait for the scan to complete.
+
+Analyze the activity logs.
+Result: Successfully extracted last activity data.
+
+08_Extract_USB_Devices
+Aim: Extract connected USB device history.
+Procedure:
+Download and install "USBDeview" from SourceForge.
+
+Run the tool.
+
+Wait for the scan to complete.
+
+Analyze the USB device history.
+Result: Successfully extracted USB device data.
+
+15_Extract_Recent_Login_Logout
+Aim: Extract recent login/logout events.
+Procedure:
+Open Command Prompt as Administrator.
+
+View recent logins (EventID 4624):
+
+Copy
+wevtutil qe Security /q:"*[System[(EventID=4624)]]" /rd:true /c:10 /f:text  
+View recent logouts (EventID 4634):
+
+Copy
+wevtutil qe Security /q:"*[System[(EventID=4634)]]" /rd:true /c:10 /f:text  
+Result: Successfully extracted the last 10 login/logout events.
