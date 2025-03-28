@@ -1,0 +1,19 @@
+12_Identifying_Hidden_Processes
+Aim: Identify and terminate hidden processes.
+Procedure:
+
+Open Command Prompt as Administrator.
+
+List all running processes:
+
+Copy
+tasklist  
+List hidden processes (SessionId=0):
+
+Copy
+wmic process where "SessionId=0" get Name, ProcessId  
+Terminate a process using its PID:
+
+Copy
+taskkill /F /PID <PID_NUMBER>  
+Result: Successfully identified and terminated hidden processes.
